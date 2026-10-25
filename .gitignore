@@ -1,0 +1,34 @@
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor and operating system files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files, logs and local backups
+*.log
+*.tmp
+*.temp
+*.bak
+*~
+
+# Dependencies and generated output, if added later
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+
+# Local archives; source files belong in the repository
+*.zip
+*.7z
+*.rar
